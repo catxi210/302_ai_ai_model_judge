@@ -1,0 +1,139 @@
+{
+  "home": {
+    "loading": "加载中...",
+    "header": {
+      "title": "AI 模型判官"
+    }
+  },
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "global": {
+    "error": {
+      "copy_failed": "复制失败",
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服",
+      "code-10001": "缺少 302 API 密钥",
+      "code-10002": "该工具已禁用/删除，更多请访问 <Gw></Gw>",
+      "code-10003": "网络错误，请稍后重试",
+      "code-10004": "账户余额不足，创建属于自己的工具，更多请访问 <Gw></Gw>",
+      "code-10005": "账户凭证过期，请重新登录",
+      "code-10006": "账户总额度已达上限，更多请访问 <Gw></Gw>",
+      "code-10007": "账户日额度已达上限，更多请访问 <Gw></Gw>",
+      "code-10008": "当前无可用通道，更多请访问 <Gw></Gw>",
+      "code-10009": "不支持当前API功能，更多请访问 <Gw></Gw>",
+      "code-10010": "不支持当前API功能，更多请访问 <Gw></Gw>",
+      "code-10011": "无效的请求",
+      "code-10012": "该免费工具在本小时的额度已达上限，请访问 <Gw></Gw> 生成属于自己的工具",
+      "code-10018": "账户月额度已达上限，更多请访问 <Gw></Gw>",
+      "code-1024": "AI接口连接超时， 请稍后重试或者联系 <Gw></Gw>"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    }
+  },
+  "tabs": {
+    "judge": {
+      "title": "模型判官"
+    },
+    "history": {
+      "title": "历史记录"
+    }
+  },
+  "labels": {
+    "answer_model": "回答模型",
+    "judge_model": "评判模型",
+    "report_format": "报告形式",
+    "full_marks": "满分分数",
+    "score": "分",
+    "prosAndCons": "优缺点",
+    "multiDimensional": "多维度",
+    "view_switch": "视图切换",
+    "vertical": "纵向",
+    "horizontal": "横向",
+    "current_answer_model": "当前回答模型",
+    "judge_answer": "模型判官",
+    "question": "问题",
+    "models": "个模型",
+    "best_model": "最佳模型",
+    "select_models": "选择模型",
+    "OpenAI模型": "OpenAI模型",
+    "Anthropic模型": "Anthropic模型",
+    "Google模型": "Google模型",
+    "国产模型": "国产模型",
+    "其他模型": "其他模型",
+    "专业模型": "专业模型",
+    "开源模型": "开源模型",
+    "硅基流动": "硅基流动"
+  },
+  "placeholder": {
+    "answer_model": "请选择模型",
+    "judge_model": "请选择模型",
+    "report_format": "请选择报告形式",
+    "full_marks": "请输入满分分数",
+    "score": "请输入分数",
+    "model_answer": "模型回答将显示在这里",
+    "waiting_for_all_models": "等待所有模型回答完成后进行评估",
+    "no_models": "无回答模型",
+    "no_judge_model": "无评判模型",
+    "no_history": "暂无历史记录",
+    "no_model_answer": "无模型回答内容",
+    "eg_question": "请输入问题 e.g.数字货币兴起对全球金融市场的潜在影响是什么？",
+    "search_model": "搜索你想要的模型"
+  },
+  "button": {
+    "generate": "开始",
+    "generate_loading": "生成中...",
+    "clear": "清除",
+    "copy": "复制",
+    "download": "下载",
+    "complete": "已完成",
+    "generating": "生成中",
+    "failed": "生成失败",
+    "collapse": "折叠",
+    "expand": "展开",
+    "content_collapsed": "内容已折叠"
+  },
+  "warning": {
+    "please_select_answer_model": "请选择回答模型",
+    "please_select_judge_model": "请选择评判模型",
+    "full_marks_must_be_greater_than_0": "满分分数必须大于0"
+  },
+  "eg": {
+    "question": "数字货币兴起对全球金融市场的潜在影响是什么？"
+  },
+  "errors": {
+    "failed_to_process_judge_report": "生成失败",
+    "generation_failed_no_content": "生成失败"
+  }
+}

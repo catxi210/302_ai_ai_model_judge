@@ -1,0 +1,139 @@
+{
+  "home": {
+    "loading": "読み込み中...",
+    "header": {
+      "title": "AI モデル審判"
+    }
+  },
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "コードを共有する必要がある"
+  },
+  "global": {
+    "error": {
+      "copy_failed": "コピーに失敗しました",
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後ほど再試行してください",
+      "not_found": "ページが存在しません",
+      "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "unknown_error": "不明なエラーが発生しました。サポートにお問い合わせください",
+      "code-10001": "302 APIキーがありません",
+      "code-10002": "このツールは無効化/削除されました。詳細については <Gw></Gw> にアクセスしてください",
+      "code-10003": "ネットワークエラー、後でもう一度お試しください",
+      "code-10004": "アカウント残高不足、自分のツールを作成するには <Gw></Gw> にアクセスしてください",
+      "code-10005": "アカウント認証情報の有効期限が切れました。再度ログインしてください",
+      "code-10006": "アカウントの総クォータ制限に達しました。詳細については <Gw></Gw> にアクセスしてください",
+      "code-10007": "アカウントの日次クォータ制限に達しました。詳細については <Gw></Gw> にアクセスしてください",
+      "code-10008": "現在使用可能なチャネルがありません。詳細については <Gw></Gw> にアクセスしてください",
+      "code-10009": "現在のAPI機能はサポートされていません。詳細については <Gw></Gw> にアクセスしてください",
+      "code-10010": "現在のAPI機能はサポートされていません。詳細については <Gw></Gw> にアクセスしてください",
+      "code-10011": "無効なリクエスト",
+      "code-10012": "この無料ツールは今時間のクォータ制限に達しました。<Gw></Gw> にアクセスして独自のツールを作成してください",
+      "code-10018": "アカウントの月間クォータ制限に達しました。詳細については <Gw></Gw> にアクセスしてください",
+      "code-1024": "AIインターフェース接続タイムアウト、後でもう一度お試しいただくか、<Gw></Gw> にお問い合わせください"
+    },
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムデフォルト",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    }
+  },
+  "tabs": {
+    "judge": {
+      "title": "モデル審判"
+    },
+    "history": {
+      "title": "履歴"
+    }
+  },
+  "labels": {
+    "answer_model": "回答モデル",
+    "judge_model": "審判モデル",
+    "report_format": "レポート形式",
+    "full_marks": "満点",
+    "score": "点",
+    "prosAndCons": "長所と短所",
+    "multiDimensional": "多次元",
+    "view_switch": "ビュー切替",
+    "vertical": "縦向き",
+    "horizontal": "横向き",
+    "current_answer_model": "現在の回答モデル",
+    "judge_answer": "モデル審判",
+    "question": "質問",
+    "models": "モデル",
+    "best_model": "最適なモデル",
+    "select_models": "モデルを選択",
+    "OpenAI模型": "OpenAIモデル",
+    "Anthropic模型": "Anthropicモデル",
+    "Google模型": "Googleモデル",
+    "国产模型": "ローカルモデル",
+    "其他模型": "他のモデル",
+    "专业模型": "プロフェッショナルモデル",
+    "开源模型": "オープンソースモデル",
+    "硅基流动": "シリコンフロー"
+  },
+  "placeholder": {
+    "answer_model": "モデルを選択してください",
+    "judge_model": "モデルを選択してください",
+    "report_format": "レポート形式を選択してください",
+    "full_marks": "満点を入力してください",
+    "score": "点数を入力してください",
+    "model_answer": "モデルの回答がここに表示されます",
+    "waiting_for_all_models": "評価前にすべてのモデルの回答が完了するのを待っています",
+    "no_models": "回答モデルがありません",
+    "no_judge_model": "審判モデルがありません",
+    "no_history": "履歴記録がありません",
+    "no_model_answer": "モデル回答コンテンツがありません",
+    "eg_question": "質問を入力してください e.g.暗号通貨の台頭がグローバル金融市場に与える潜在的な影響は何ですか？",
+    "search_model": "検索したいモデルを検索してください"
+  },
+  "button": {
+    "generate": "開始",
+    "generate_loading": "生成中...",
+    "clear": "クリア",
+    "copy": "コピー",
+    "download": "ダウンロード",
+    "complete": "完了",
+    "generating": "生成中",
+    "failed": "生成に失敗しました",
+    "collapse": "折りたたむ",
+    "expand": "展開する",
+    "content_collapsed": "内容が折りたたまれています"
+  },
+  "warning": {
+    "please_select_answer_model": "回答モデルを選択してください",
+    "please_select_judge_model": "評判モデルを選択してください",
+    "full_marks_must_be_greater_than_0": "満点は0より大きくなければなりません"
+  },
+  "eg": {
+    "question": "暗号通貨の台頭がグローバル金融市場に与える潜在的な影響は何ですか？"
+  },
+  "errors": {
+    "failed_to_process_judge_report": "生成に失敗しました",
+    "generation_failed_no_content": "生成に失敗しました"
+  }
+}
