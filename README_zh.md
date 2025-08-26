@@ -2,13 +2,13 @@
 
 <p align="center">AI模型判官可以一次性测试多个模型，快速获得全面的评估结果，选择最适合您需求的模型。</p>
 
-<p align="center"><a href="https://302.ai/tools/judge/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/69" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_judge.png)
 
-来自[302.AI](https://302.ai)的[AI 模型判官](https://302.ai/tools/judge/)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
+来自[302.AI](https://302.ai)的[AI 模型判官](https://302.ai/product/detail/69)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
 ## 界面预览
 输入任意问题或描述，从模型列表中分别选择用于回答和评判的AI模型，评判模型会对其他模型的回答进行评估和打分。基于评估结果，选择最适合您需求的模型。      
